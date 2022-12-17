@@ -5,7 +5,7 @@ import MovieList from "./components/MovieList/MovieList";
 import MovieModal from "./components/Modal/MovieModal";
 import NavSearch from "./components/NavSearch/NavSearch";
 import Loading from "./components/Loading/Loading";
-
+import Footer from "./components/Footer/Footer";
 let api = new DataService();
 
 const App = () => {
@@ -78,6 +78,7 @@ const App = () => {
       />
       {loading && <Loading />}
       {(!loading && movieList.length < 1) && <div className='loading'><h1>No results found.</h1></div>}
+      <Footer />
     </div>
   );
 };
