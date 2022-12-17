@@ -8,5 +8,8 @@ export const style = {
     // border: "2px solid #000",
     boxShadow: 24,
     outline: "none",
-    p: 4,
+    p: 4, 
+    overflowY: "auto",
+    height: "475px",
+    // width: "583px",
   };

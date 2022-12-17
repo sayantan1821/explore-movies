@@ -5,7 +5,6 @@ import "./crad.css";
 const imageUrl = "https://image.tmdb.org/t/p/original/";
 const Card = ({ movie, handleOpen}) => {
   
-  // console.log(movie);
   let posterUrl = imageUrl + movie.poster_path;
   return (
     <div
@@ -14,7 +13,7 @@ const Card = ({ movie, handleOpen}) => {
       onClick={() => handleOpen(movie)}
     >
       <div className="movie_title">{movie.title}</div>
-      
+      <div className="rating_circle">{movie.vote_average}</div>
     </div>
   );
 };

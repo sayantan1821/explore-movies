@@ -6,6 +6,7 @@
   align-items: flex-end;
   border-radius: 8px;
   min-width: 200px;
+  position: relative;
 }
 .poster_img {
   width: 280px;
@@ -20,6 +21,19 @@
   font-size: 16px;
   line-height: 26px;
 }
+.rating_circle {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 14px;
+  top: 14px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  text-align: center;
+}
 
 @media all and (max-width: 576px) {
   .card_container {
@@ -29,7 +43,8 @@
     display: flex;
     align-items: flex-end;
     border-radius: 8px;
-    min-width: 100px;
+    min-width: 150px;
+    position: relative;
   }
   .poster_img {
     width: 280px;
@@ -43,5 +58,18 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+  }
+  .rating_circle {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 14px;
+    top: 14px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    text-align: center;
   }
 }

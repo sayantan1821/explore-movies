@@ -14,13 +14,14 @@ const MovieModal = ({ open, handleClose, modalContent }) => {
       onClose={handleClose}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
-      style={{
-        width: "400px",
-        marginLeft: "40%",
-        backgroundColor: "transparent",
-      }}
+      className="modal"
+      // style={{
+      //   width: "400px",
+      //   marginLeft: "40%",
+      //   backgroundColor: "transparent",
+      // }}
     >
-      <Box sx={style}>
+      <Box className="modal_box" sx={style}>
         <div className="modal_nav">
           <h4>{modalContent.title}</h4>
           <IconButton

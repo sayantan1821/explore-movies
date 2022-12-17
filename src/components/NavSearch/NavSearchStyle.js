@@ -46,9 +46,9 @@ export const Search = styled("div")(({ theme }) => ({
         padding: theme.spacing(0.1, 0.1, 0.1, 0),
         paddingLeft: `calc(1em + ${theme.spacing(3)})`,
         width: "6ch",
-        "&:focus": {
-          width: "20ch",
-        },
+        // "&:focus": {
+        //   width: "20ch",
+        // },
       },
       [theme.breakpoints.up("lg")]: {
         width: "20ch",
