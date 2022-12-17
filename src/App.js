@@ -78,7 +78,7 @@ const App = () => {
       />
       {loading && <Loading />}
       {(!loading && movieList.length < 1) && <div className='loading'><h1>No results found.</h1></div>}
-      <Footer />
+      {/* {!loading && <Footer />} */}
     </div>
   );
 };
