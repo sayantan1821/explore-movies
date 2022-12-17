@@ -3,11 +3,14 @@ body {
   font-family: "Inter";
   font-style: normal;
   background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
 }
 .header {
   height: 60px;
   width: 1200px;
-  margin: 10px auto 10px;
+  margin: 0 auto 10px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
