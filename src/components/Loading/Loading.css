@@ -1,9 +1,11 @@
 .loading {
-    position: absolute; 
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 100px;
-    /* transform: "translate(-50%, -50%) !important", */
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  color: #696969;
+  text-align: center;
+  /* transform: "translate(-50%, -50%) !important", */
 }

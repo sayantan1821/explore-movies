@@ -77,6 +77,7 @@ const App = () => {
         modalContent={modalContent}
       />
       {loading && <Loading />}
+      {(!loading && movieList.length < 1) && <div className='loading'><h1>No results found.</h1></div>}
     </div>
   );
 };
